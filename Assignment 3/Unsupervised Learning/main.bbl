@@ -19,98 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global}
-    \entry{Stackoverflow-quote}{online}{}
-      \name{author}{1}{}{%
-        {{hash=e7d5253ea94fa9c642303bef9e588cd8}{%
-           family={Anon},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{e7d5253ea94fa9c642303bef9e588cd8}
-      \strng{fullhash}{e7d5253ea94fa9c642303bef9e588cd8}
-      \strng{bibnamehash}{e7d5253ea94fa9c642303bef9e588cd8}
-      \strng{authorbibnamehash}{e7d5253ea94fa9c642303bef9e588cd8}
-      \strng{authornamehash}{e7d5253ea94fa9c642303bef9e588cd8}
-      \strng{authorfullhash}{e7d5253ea94fa9c642303bef9e588cd8}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \true{uniquework}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{How Many Adaboost Iterations}
-      \field{urlday}{31}
-      \field{urlmonth}{1}
-      \field{urlyear}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://stats.stackexchange.com/questions/163560/how-many-adaboost-iterations
-      \endverb
-      \verb{url}
-      \verb https://stats.stackexchange.com/questions/163560/how-many-adaboost-iterations
-      \endverb
-    \endentry
-    \entry{bergstra2012random}{article}{}
-      \name{author}{2}{}{%
-        {{hash=0bc66fe902c838c216bd3175dfeb045b}{%
-           family={Bergstra},
-           familyi={B\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod}}}%
-        {{hash=40a8e4774982146adc2688546f54efb2}{%
-           family={Bengio},
-           familyi={B\bibinitperiod},
-           given={Yoshua},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{a05cf9842110d2caa7fbdda862c52ff8}
-      \strng{fullhash}{a05cf9842110d2caa7fbdda862c52ff8}
-      \strng{bibnamehash}{a05cf9842110d2caa7fbdda862c52ff8}
-      \strng{authorbibnamehash}{a05cf9842110d2caa7fbdda862c52ff8}
-      \strng{authornamehash}{a05cf9842110d2caa7fbdda862c52ff8}
-      \strng{authorfullhash}{a05cf9842110d2caa7fbdda862c52ff8}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \true{uniquework}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Machine Learning Research}
-      \field{number}{Feb}
-      \field{title}{Random search for hyper-parameter optimization}
-      \field{volume}{13}
-      \field{year}{2012}
-      \field{pages}{281\bibrangedash 305}
-      \range{pages}{25}
-    \endentry
-    \entry{Chollet-Comment}{online}{}
-      \name{author}{1}{}{%
-        {{hash=b04a6d14ee90a10d020c71b1b79d5aee}{%
-           family={Chollet},
-           familyi={C\bibinitperiod},
-           given={Francis},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{b04a6d14ee90a10d020c71b1b79d5aee}
-      \strng{fullhash}{b04a6d14ee90a10d020c71b1b79d5aee}
-      \strng{bibnamehash}{b04a6d14ee90a10d020c71b1b79d5aee}
-      \strng{authorbibnamehash}{b04a6d14ee90a10d020c71b1b79d5aee}
-      \strng{authornamehash}{b04a6d14ee90a10d020c71b1b79d5aee}
-      \strng{authorfullhash}{b04a6d14ee90a10d020c71b1b79d5aee}
-      \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \true{uniquework}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Github Comment on Batch-Norm positioning}
-      \field{urlday}{21}
-      \field{urlmonth}{1}
-      \field{urlyear}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://github.com/keras-team/keras/issues/1802#issuecomment-187966878
-      \endverb
-      \verb{url}
-      \verb https://github.com/keras-team/keras/issues/1802#issuecomment-187966878
-      \endverb
-    \endentry
     \entry{dal2015calibrating}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=40a4332d4aa2c69d035bb6c5a1634037}{%
@@ -154,46 +62,6 @@
       \field{pages}{159\bibrangedash 166}
       \range{pages}{8}
     \endentry
-    \entry{hastie01statisticallearning}{book}{}
-      \name{author}{3}{}{%
-        {{hash=0cb8fe4210baa81c4b0e67913b4d2768}{%
-           family={Hastie},
-           familyi={H\bibinitperiod},
-           given={Trevor},
-           giveni={T\bibinitperiod}}}%
-        {{hash=88eea600247d798f8b2ce0b2dc614492}{%
-           family={Tibshirani},
-           familyi={T\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod}}}%
-        {{hash=971cf69058b64a94326dea0f2a8bbcce}{%
-           family={Friedman},
-           familyi={F\bibinitperiod},
-           given={Jerome},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York, NY, USA}%
-      }
-      \list{publisher}{1}{%
-        {Springer New York Inc.}%
-      }
-      \strng{namehash}{7ca1bfe876d5e037b6aed69704221267}
-      \strng{fullhash}{7ca1bfe876d5e037b6aed69704221267}
-      \strng{bibnamehash}{7ca1bfe876d5e037b6aed69704221267}
-      \strng{authorbibnamehash}{7ca1bfe876d5e037b6aed69704221267}
-      \strng{authornamehash}{7ca1bfe876d5e037b6aed69704221267}
-      \strng{authorfullhash}{7ca1bfe876d5e037b6aed69704221267}
-      \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \true{uniquework}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{series}{Springer Series in Statistics}
-      \field{title}{The Elements of Statistical Learning}
-      \field{year}{2001}
-      \keyw{ml statistics}
-    \endentry
     \entry{Kaggle-CreditCard}{online}{}
       \name{author}{1}{}{%
         {{hash=8fec9765921cfa63cb331e42a924c27c}{%
@@ -206,7 +74,6 @@
       \strng{authorbibnamehash}{8fec9765921cfa63cb331e42a924c27c}
       \strng{authornamehash}{8fec9765921cfa63cb331e42a924c27c}
       \strng{authorfullhash}{8fec9765921cfa63cb331e42a924c27c}
-      \field{extraname}{1}
       \field{sortinit}{K}
       \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \true{uniquework}
@@ -223,91 +90,6 @@
       \endverb
       \verb{url}
       \verb https://www.kaggle.com/mlg-ulb/creditcardfraud/home
-      \endverb
-    \endentry
-    \entry{Kaggle-PCam}{online}{}
-      \name{author}{1}{}{%
-        {{hash=8fec9765921cfa63cb331e42a924c27c}{%
-           family={Kaggle},
-           familyi={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{8fec9765921cfa63cb331e42a924c27c}
-      \strng{fullhash}{8fec9765921cfa63cb331e42a924c27c}
-      \strng{bibnamehash}{8fec9765921cfa63cb331e42a924c27c}
-      \strng{authorbibnamehash}{8fec9765921cfa63cb331e42a924c27c}
-      \strng{authornamehash}{8fec9765921cfa63cb331e42a924c27c}
-      \strng{authorfullhash}{8fec9765921cfa63cb331e42a924c27c}
-      \field{extraname}{2}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \true{uniquework}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Histopathologic Cancer Detection}
-      \field{urlday}{10}
-      \field{urlmonth}{1}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.kaggle.com/c/histopathologic-cancer-detection/data
-      \endverb
-      \verb{url}
-      \verb https://www.kaggle.com/c/histopathologic-cancer-detection/data
-      \endverb
-    \endentry
-    \entry{DBLP:journals/corr/KeskarMNST16}{article}{}
-      \name{author}{5}{}{%
-        {{hash=15ea9bc75db0deb69067396346fde185}{%
-           family={Keskar},
-           familyi={K\bibinitperiod},
-           given={Nitish\bibnamedelima Shirish},
-           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=7665aa4c66ae17e55251a67c635e7ad3}{%
-           family={Mudigere},
-           familyi={M\bibinitperiod},
-           given={Dheevatsa},
-           giveni={D\bibinitperiod}}}%
-        {{hash=88a342d927bf795b0d92af8a5613da31}{%
-           family={Nocedal},
-           familyi={N\bibinitperiod},
-           given={Jorge},
-           giveni={J\bibinitperiod}}}%
-        {{hash=9e7183ff690cd4bd193b4b725fad9621}{%
-           family={Smelyanskiy},
-           familyi={S\bibinitperiod},
-           given={Mikhail},
-           giveni={M\bibinitperiod}}}%
-        {{hash=37eb652c3d36bdbb7322e979993ff09c}{%
-           family={Tang},
-           familyi={T\bibinitperiod},
-           given={Ping\bibnamedelimb Tak\bibnamedelima Peter},
-           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \strng{namehash}{4ea18b0d98cb5bcd3aceb7e05ae41c54}
-      \strng{fullhash}{2831feb38bd4e8784193a9f7506679d8}
-      \strng{bibnamehash}{2831feb38bd4e8784193a9f7506679d8}
-      \strng{authorbibnamehash}{2831feb38bd4e8784193a9f7506679d8}
-      \strng{authornamehash}{4ea18b0d98cb5bcd3aceb7e05ae41c54}
-      \strng{authorfullhash}{2831feb38bd4e8784193a9f7506679d8}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \true{uniquework}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{CoRR}
-      \field{title}{On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima}
-      \field{volume}{abs/1609.04836}
-      \field{year}{2016}
-      \verb{eprint}
-      \verb 1609.04836
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1609.04836
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1609.04836
       \endverb
     \endentry
     \entry{doi:10.1093/gigascience/giy065}{article}{}
@@ -435,96 +217,6 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1093/gigascience/giy065
-      \endverb
-    \endentry
-    \entry{mease2008evidence}{article}{}
-      \name{author}{2}{}{%
-        {{hash=b612b2fe908f64ff096e69e71f7e5698}{%
-           family={Mease},
-           familyi={M\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=e40ad8a43ffe4b5583ea19357f68e836}{%
-           family={Wyner},
-           familyi={W\bibinitperiod},
-           given={Abraham},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{c4f4ab253e3fe6d042d28f60bc4e8e8a}
-      \strng{fullhash}{c4f4ab253e3fe6d042d28f60bc4e8e8a}
-      \strng{bibnamehash}{c4f4ab253e3fe6d042d28f60bc4e8e8a}
-      \strng{authorbibnamehash}{c4f4ab253e3fe6d042d28f60bc4e8e8a}
-      \strng{authornamehash}{c4f4ab253e3fe6d042d28f60bc4e8e8a}
-      \strng{authorfullhash}{c4f4ab253e3fe6d042d28f60bc4e8e8a}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \true{uniquework}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Machine Learning Research}
-      \field{number}{Feb}
-      \field{title}{Evidence contrary to the statistical view of boosting}
-      \field{volume}{9}
-      \field{year}{2008}
-      \field{pages}{131\bibrangedash 156}
-      \range{pages}{26}
-    \endentry
-    \entry{Stanford-Img}{online}{}
-      \name{author}{1}{}{%
-        {{hash=45ebe6bd838f67040a398bf6fd40841d}{%
-           family={Stanford},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{45ebe6bd838f67040a398bf6fd40841d}
-      \strng{fullhash}{45ebe6bd838f67040a398bf6fd40841d}
-      \strng{bibnamehash}{45ebe6bd838f67040a398bf6fd40841d}
-      \strng{authorbibnamehash}{45ebe6bd838f67040a398bf6fd40841d}
-      \strng{authornamehash}{45ebe6bd838f67040a398bf6fd40841d}
-      \strng{authorfullhash}{45ebe6bd838f67040a398bf6fd40841d}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \true{uniquework}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Classification on Image Datasets}
-      \field{urlday}{21}
-      \field{urlmonth}{1}
-      \field{urlyear}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb http://cs231n.github.io/classification/
-      \endverb
-      \verb{url}
-      \verb http://cs231n.github.io/classification/
-      \endverb
-    \endentry
-    \entry{Udacity-Adaboost}{online}{}
-      \name{author}{1}{}{%
-        {{hash=e5742918ccc601d1624882335fdbf22d}{%
-           family={Udacity},
-           familyi={U\bibinitperiod}}}%
-      }
-      \strng{namehash}{e5742918ccc601d1624882335fdbf22d}
-      \strng{fullhash}{e5742918ccc601d1624882335fdbf22d}
-      \strng{bibnamehash}{e5742918ccc601d1624882335fdbf22d}
-      \strng{authorbibnamehash}{e5742918ccc601d1624882335fdbf22d}
-      \strng{authornamehash}{e5742918ccc601d1624882335fdbf22d}
-      \strng{authorfullhash}{e5742918ccc601d1624882335fdbf22d}
-      \field{sortinit}{U}
-      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
-      \true{uniquework}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Introduction to Boosting}
-      \field{urlday}{29}
-      \field{urlmonth}{1}
-      \field{urlyear}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://s3.amazonaws.com/video.udacity-data.com/topher/2017/June/593cdeca_intro-to-boosting/intro-to-boosting.pdf
-      \endverb
-      \verb{url}
-      \verb https://s3.amazonaws.com/video.udacity-data.com/topher/2017/June/593cdeca_intro-to-boosting/intro-to-boosting.pdf
       \endverb
     \endentry
   \enddatalist

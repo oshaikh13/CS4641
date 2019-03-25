@@ -172,66 +172,24 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmtt8.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
+INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/pcamDistr.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/pcamDistr.png
 OUTPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/main.pdf
+INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/pcamDistr.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/irisDistr.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/irisDistr.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/irisDistr.png
 INPUT c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/pcamDistr.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/pcamDistr.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/pcamDistr.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/fraudImg.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/fraudImg.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/fraudImg.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/gridSearch.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/gridSearch.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/gridSearch.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/gridSearchCredit.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/gridSearchCredit.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/gridSearchCredit.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/nnplotcam.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/nnplotcam.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/nnplotcam.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/archshitty.PNG
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/archshitty.PNG
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/archshitty.PNG
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/arch.PNG
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/arch.PNG
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/arch.PNG
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/best_nns.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/best_nns.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/best_nns.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/kNN_Credit.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/kNN_Credit.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/kNN_Credit.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/kNN_pcam.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/kNN_pcam.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/kNN_pcam.png
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/boosting_acc.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/boosting_acc.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/boosting_acc.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/svm.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/svm.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/svm.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/pcam_tests.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/pcam_tests.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/pcam_tests.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/trialbyfire.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/trialbyfire.png
-INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/images/trialbyfire.png
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
 INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/main.aux
 INPUT c:/texlive/2018/texmf-dist/tex/latex/biblatex-chicago/cms-american.lbx
 INPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/main.run.xml
 OUTPUT c:/Users/me/Documents/CS4641/Assignment 3/Unsupervised Learning/main.run.xml
 INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
-INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
-INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx9.pfb
-INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb
-INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr17.pfb
@@ -240,6 +198,5 @@ INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr9.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri8.pfb
-INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt8.pfb

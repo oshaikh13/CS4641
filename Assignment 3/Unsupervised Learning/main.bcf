@@ -2825,18 +2825,8 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">doi:10.1093/gigascience/giy065</bcf:citekey>
-    <bcf:citekey order="2">Kaggle-PCam</bcf:citekey>
-    <bcf:citekey order="3">dal2015calibrating</bcf:citekey>
-    <bcf:citekey order="4">Kaggle-CreditCard</bcf:citekey>
-    <bcf:citekey order="5">Chollet-Comment</bcf:citekey>
-    <bcf:citekey order="6">Udacity-Adaboost</bcf:citekey>
-    <bcf:citekey order="7">mease2008evidence</bcf:citekey>
-    <bcf:citekey order="8">hastie01statisticallearning</bcf:citekey>
-    <bcf:citekey order="9">hastie01statisticallearning</bcf:citekey>
-    <bcf:citekey order="10">Stackoverflow-quote</bcf:citekey>
-    <bcf:citekey order="11">Stanford-Img</bcf:citekey>
-    <bcf:citekey order="12">bergstra2012random</bcf:citekey>
-    <bcf:citekey order="13">DBLP:journals/corr/KeskarMNST16</bcf:citekey>
+    <bcf:citekey order="2">dal2015calibrating</bcf:citekey>
+    <bcf:citekey order="3">Kaggle-CreditCard</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="cms">
