@@ -1,0 +1,219 @@
+\documentclass[letter]{article}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{multirow}
+\usepackage{amssymb,amsmath,amsfonts} % nice math rendering
+
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{graphicx}
+\usepackage{todonotes}
+\usepackage{floatrow}
+\usepackage{hyperref}
+\usepackage{lastpage}
+
+\usepackage{braket} % needed for \Set
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+\graphicspath{ {./images/} }
+
+\usepackage[margin=0.8in]{geometry}
+
+\usepackage[notes,backend=biber]{biblatex-chicago}
+\bibliography{sample}
+
+\begin{document}
+\title{MDPs and RL - CS 4641}
+\author{Omar Shaikh}
+\maketitle
+
+\begin{abstract}
+    In this report, I explore three RL methods of interest. The first two are Policy and Value iteration, both rooted in Dynamic Programming Techniques. The last method, Q-learning, utilizes TD learning unlike the first two. I compare and contrast both value and policy iteration in two MDPs; finally, I conclude with an exploration of Q-learning strategies and a general comparative analysis.
+\end{abstract}
+
+\section{Markov Decision Processes}
+
+A state $S_t$ is Markov if and only if
+\begin{equation}
+\mathbb{P}[S_{t+1}|S_t] = \mathbb{P}[S_{t+1}|S_1, ... , S_t]
+\end{equation}
+A future is independent of the past given the present. We use state transition matrix $P$ to define transition probabilities from all states $s$ to all successor states $s'$
+\begin{equation}
+P_{ss'}=\mathbb{P}[S_{t+1}=s'|S_t=s]
+\end{equation}
+The following MDP follows Markov assumption.
+
+\subsection{Frozen Cliff MDP}
+
+The general MDP used in this project is a slightly altered version of the Frozen Cliff MDP taken from OpenAI's gym.  
+
+\begin{quote}
+    Winter is here. You and your friends were tossing around a frisbee at the park
+    when you made a wild throw that left the frisbee out in the middle of the lake.
+    The water is mostly frozen, but there are a few holes where the ice has melted.
+    If you step into one of those holes, you'll fall into the freezing water.
+    At this time, there's an international frisbee shortage, so it's absolutely imperative that
+    you navigate across the lake and retrieve the disc.
+    However, the ice is slippery, so you won't always move in the direction you intend.
+    The surface is described using a grid like the following (\ref{fig1:smallmdp})
+
+    S : starting point, safe\\
+    F : frozen surface, safe\\
+    H : hole, fall to your doom\\
+    G : goal, where the frisbee is located
+
+    The episode ends when you reach the goal or fall in a hole.
+    You receive a reward of 1 if you reach the goal, and zero otherwise.
+\end{quote}
+The slight alteration comes in the form of a small negative living reward, to enforce a horizon on the MDP. If the agent doesn't fall into a hole, but doesn't reach it's goal-state, it receives a small pre-defined penalty. My attached code was stolen mostly from the cited GitHub repository.
+
+\subsection{Problem Instances and Interest}
+The following two frozen lakes highlight our MDPs. For my environments, I added a custom transition matrix defined in \ref{eq:mdptransition}, where the intended action $x$ is parameterized by probability $p$.
+
+For both my MDPs (\ref{fig1:largemdp} and \ref{fig1:smallmdp}) I have a single goal state in the bottom right corner. However, with the larger MDP, there are more (terminal) states which will require more time for our RL algorithms to converge. Furthermore, there are several paths we can see in the large MDP, and the solution is somewhat vague. With the small MDP, the optimal policy can be eyeballed given parameters. 
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \texttt{\textcolor{blue}{S}FFF}\\
+        \texttt{F\textcolor{red}{H}F\textcolor{red}{H}}\\
+        \texttt{FFF\textcolor{red}{H}}\\
+        \texttt{HFF\textcolor{green}{G}}
+        \caption{Small MDP (4x4)}
+        \label{fig1:smallmdp}
+      \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+      \centering
+      \centering
+      \texttt{\textcolor{blue}{S}FFFFFF\textcolor{red}{H}\textcolor{red}{H}\textcolor{red}{H}FFFFFFFFFF}\\
+      \texttt{FFFFFFFFFFFFFFFF\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{FFF\textcolor{red}{H}FFFFFFF\textcolor{red}{H}\textcolor{red}{H}FFFFFFF}\\
+      \texttt{FFFFF\textcolor{red}{H}FFFFFFFFFF\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{FFFFF\textcolor{red}{H}FFFFFFFFFF\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{FFFFF\textcolor{red}{H}FFFFFFFFFF\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{FFFFFFFF\textcolor{red}{H}FFFFFFF\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{FFFFF\textcolor{red}{H}FFFF\textcolor{red}{H}\textcolor{red}{H}FFFF\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{FFFFF\textcolor{red}{H}FFFFFFFFFF\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{FFFFF\textcolor{red}{H}FFFFFFFFFF\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{FFFFFFFFFFF\textcolor{red}{H}\textcolor{red}{H}\textcolor{red}{H}\textcolor{red}{H}\textcolor{red}{H}\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{\textcolor{red}{H}\textcolor{red}{H}\textcolor{red}{H}\textcolor{red}{H}F\textcolor{red}{H}FFFFFFFFFF\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{FFFFF\textcolor{red}{H}FFFF\textcolor{red}{H}\textcolor{red}{H}\textcolor{red}{H}FFF\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{FFFFFFFFFFFFFFFF\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{FFFFF\textcolor{red}{H}FFFFFF\textcolor{red}{H}FFF\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{FFFFF\textcolor{red}{H}FFFFFFFFFF\textcolor{red}{H}\textcolor{red}{H}FF}\\
+      \texttt{FFFFFFFFFFF\textcolor{red}{H}FFFFFFFF}\\
+      \texttt{F\textcolor{red}{H}\textcolor{red}{H}FFF\textcolor{red}{H}FFFF\textcolor{red}{H}FFFFF\textcolor{red}{H}FF}\\
+      \texttt{F\textcolor{red}{H}\textcolor{red}{H}F\textcolor{red}{H}F\textcolor{red}{H}FFFFFFFFFFFFF}\\
+      \texttt{FFF\textcolor{red}{H}FFFFF\textcolor{red}{H}FFFF\textcolor{red}{H}\textcolor{red}{H}F\textcolor{red}{H}F\textcolor{green}{G}}      
+      \caption{Large MDP (20x20)}
+      \label{fig1:largemdp}
+    \end{subfigure}
+    \caption{Frozen Cliff Environments}
+\end{figure}
+    
+
+\begin{equation}
+    \label{eq:mdptransition}
+    S_{t+1}(x) = 
+    \begin{cases}
+        x,& \text{with probability } 1-p\\
+        rotate(x, 90\degree),              & \text{with probability } \frac{p}{2}\\
+        rotate(x, -90\degree),              & \text{with probability } \frac{p}{2}
+    \end{cases}
+\end{equation}
+
+Note that this MDP is quite similar to GridWorld detailed in literature, except that the transition matrix doesn't account for the agent accidentally moving backward (we assume that the person looking for the frisbee won't mess up too badly). Because of this, we can directly rely on prior observations from GridWorld (due to the research attention this problem has received), while exploring a slightly different MDP formulation.
+
+\section{Computer Specifications}
+The computer used to train and test has an i7-7700HQ (clock speeds @ 3.8 GHZ), 32 GB of RAM, and an Nvidia GTX 1070 with 8 GB of VRAM. Whenever it was possible, I used all CPU cores. Runtimes of algorithms should be considered in context of these specifications.
+\section{Dynamic Programming RL}
+The following subsections cover Reinforcement Learning Algorithms that rely on Bellman's equations and Dynamic Programming techniques.
+
+In the case of value iteration, the optimal value for each state is calculated, where the value is defined as the sum of maximum reward following the best policy. In the case of value iteration, the best policy can be defined by greedily picking a route of the maximum value at each state. Note that we are not finished until each value for every state has converged (see algorithm \ref{alg:value-iteration}).
+
+With policy iteration, however, we pick a random initial policy and solve a set of linear equations to justify actions at every step in our policy. When our actions stop changing (e.g all states have been "justified") we converge at our final policy. Note, however, that each iteration takes more effort on the part of policy iteration when compared to value iteration due to solving this system of equations (see algorithm \ref{alg:policy-iteration}). 
+
+For both problem one and two, the step reward (where the next state is not a hole or the goal state) is -.1. I will explore no step reward (and therefore no event horizon) in the comparative analysis.
+
+\begin{algorithm}[H]
+    \begin{algorithmic}
+    \Require
+    \Statex States $\mathcal{X} = \{1, \dots, n_x\}$
+    \Statex Actions $\mathcal{A} = \{1, \dots, n_a\},\qquad A: \mathcal{X} \Rightarrow \mathcal{A}$
+    \Statex Cost function $g: \mathcal{X} \times \mathcal{A} \rightarrow \mathbb{R}$
+    \Statex Transition probabilities $f_{xy}(a) = \mathbb{P}(y | x, a)$
+    \Statex Discounting factor $\alpha \in (0, 1)$, typically $\alpha = 0.9$
+    \Procedure{ValueIteration}{$\mathcal{X}$, $A$, $g$, $f$, $\alpha$}
+        \State Initialize $J, J': \mathcal{X} \rightarrow \mathbb{R}_0^+$ arbitrarily
+        \While{$J$ is not converged}
+            \State $J' \gets J$
+            \For{$x \in \mathcal{X}$}
+                \For{$a \in A(x)$}
+                    \State $Q(x, a) \gets g(x, a) + \alpha \sum_{j=1}^{n_x} f_{xj}(a) \cdot J'(j)$
+                \EndFor
+            \EndFor
+            \For{$x \in \mathcal{X}$}
+                \State $J(x) \gets \min_a \{Q(x, a)\}$
+            \EndFor
+        \EndWhile
+        \Return $J$
+    \EndProcedure
+    \end{algorithmic}
+\caption{Value Iteration: Learn function $J: \mathcal{X} \rightarrow \mathbb{R}$}
+\label{alg:value-iteration}
+\end{algorithm}
+
+\begin{algorithm}[H]
+    \begin{algorithmic}
+    \Require
+    \Statex States $\mathcal{X} = \{1, \dots, n_x\}$
+    \Statex Actions $\mathcal{A} = \{1, \dots, n_a\},\qquad A: \mathcal{X} \Rightarrow \mathcal{A}$
+    \Statex Cost function $g: \mathcal{X} \times \mathcal{A} \rightarrow \mathbb{R}$
+    \Statex Transition probabilities $f$, $F$
+    \Statex $\alpha \in (0, 1)$
+    \Procedure{PolicyIteration}{$\mathcal{X}$, $A$, $g$, $f$, $F$, $\alpha$}
+        \State Initialize $\pi$ arbitrarily
+        \While{$\pi$ is not converged}
+            \State $J \gets$ solve system of linear equations $(I - \alpha \cdot F(\pi)) \cdot J = g(\pi)$
+
+            \For{$x \in \mathcal{X}$}
+                \For{$a \in A(x)$}
+                    \State $Q(x, a) \gets g(x, a) + \alpha \sum_{j=1}^{n_x} f_{xj}(a) \cdot J(j)$
+                \EndFor
+            \EndFor
+            \For{$x \in \mathcal{X}$}
+                \State $\pi(x) \gets \arg \min_a \{Q(x, a)\}$
+            \EndFor
+        \EndWhile
+        \Return $\pi$
+    \EndProcedure
+    \end{algorithmic}
+\caption{Policy Iteration: Learning a policy $\pi: \mathcal{X} \rightarrow \mathcal{A}$}
+\label{alg:policy-iteration}
+\end{algorithm}
+
+\subsection{Problem \ref{fig1:smallmdp}}
+
+\subsection{Problem \ref{fig1:largemdp}}
+\subsection{Comparative Analysis}
+\section{TD Learning}
+\subsection{Q-Learning}
+
+
+
+
+\printbibliography
+
+\end{document}
