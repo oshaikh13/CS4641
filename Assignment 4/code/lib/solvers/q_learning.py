@@ -24,7 +24,7 @@ class QLearningSolver(BaseSolver):
         self._step_times = []
         self._last_delta = 0
         self._theta = theta
-        self._stats = EpisodeStats(max_episodes)
+        self._stats = EpisodeStats(max_episodes + 1)
 
         # We want to wait for a few consecutive episodes to be below theta before we consider the model converged
         self._consecutive_sub_theta_episodes = 0
@@ -43,7 +43,7 @@ class QLearningSolver(BaseSolver):
         # One step in the environment
         total_reward = 0.0
         episode_steps = 0
-        for t in range(self._max_steps_per_episode+1):
+        for t in range(self._max_steps_per_episode + 1):
             # Take a step
             action_probs = self._policy_function(state)
             # TODO: Which one?

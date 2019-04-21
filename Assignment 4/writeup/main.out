@@ -2,9 +2,20 @@
 \BOOKMARK [2][-]{subsection.1.1}{Frozen Cliff MDP}{section.1}% 2
 \BOOKMARK [2][-]{subsection.1.2}{Problem Instances and Interest}{section.1}% 3
 \BOOKMARK [1][-]{section.2}{Computer Specifications}{}% 4
-\BOOKMARK [1][-]{section.3}{Dynamic Programming RL}{}% 5
-\BOOKMARK [2][-]{subsection.3.1}{Problem 1a}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.2}{Problem 1b}{section.3}% 7
+\BOOKMARK [1][-]{section.3}{Model Based Learners \046 Dynamic Programming}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Problem 1a - Small MDP}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Problem 1b - Big MDP}{section.3}% 7
 \BOOKMARK [2][-]{subsection.3.3}{Comparative Analysis}{section.3}% 8
-\BOOKMARK [1][-]{section.4}{TD Learning}{}% 9
-\BOOKMARK [2][-]{subsection.4.1}{Q-Learning}{section.4}% 10
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Similar Policies and Increased Iterations}{subsection.3.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Size and Performance}{subsection.3.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Observing p value and MDP Cases}{subsection.3.3}% 11
+\BOOKMARK [1][-]{section.4}{TD \(Q\) Learning}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Effects of epsilon and p on Reward}{section.4}% 13
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Problem 1a - Small MDP}{subsection.4.1}% 14
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Problem 1b - Big MDP}{subsection.4.1}% 15
+\BOOKMARK [2][-]{subsection.4.2}{Effects of epsilon on evaluation time}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.3}{Comparison between Q-Learning and Model Based Learners}{section.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Policies}{subsection.4.3}% 18
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Runtime}{subsection.4.3}% 19
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Effect of p}{subsection.4.3}% 20
+\BOOKMARK [1][-]{section.5}{Conclusion A.K.A "which one should I use?"}{}% 21

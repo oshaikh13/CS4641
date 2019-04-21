@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.24)  16 APR 2019 20:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.24)  21 APR 2019 13:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1022,27 +1022,27 @@ LaTeX Warning: Unused global option(s):
 (c:/Users/me/Documents/CS4641/Assignment 4/writeup/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 37.
  (c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 36.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 37.
  (c:/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1077,17 +1077,17 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 36.
-Package gensymb Info: Math companion symbols declared on input line 36.
-LaTeX Info: Redefining \degree on input line 36.
-LaTeX Info: Redefining \celsius on input line 36.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 36.
-LaTeX Info: Redefining \ohm on input line 36.
-Package gensymb Info: Using \textohm for \ohm on input line 36.
-Package gensymb Info: Using \textmu for \micro on input line 36.
+(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 37.
+Package gensymb Info: Math companion symbols declared on input line 37.
+LaTeX Info: Redefining \degree on input line 37.
+LaTeX Info: Redefining \celsius on input line 37.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 37.
+LaTeX Info: Redefining \ohm on input line 37.
+Package gensymb Info: Using \textohm for \ohm on input line 37.
+Package gensymb Info: Using \textmu for \micro on input line 37.
  ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 37.
  (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1095,16 +1095,16 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count366
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
  (c:/Users/me/Documents/CS4641/Assignment 4/writeup/main.out) (c:/Users/me/Documents/CS4641/Assignment 4/writeup/main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 36.
+(lastpage)             ! on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1148,86 +1148,207 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 (c:/Users/me/Documents/CS4641/Assignment 4/writeup/main.bbl)
-Package biblatex Info: Reference section=0 on input line 36.
-Package biblatex Info: Reference segment=0 on input line 36.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 40.
+Package biblatex Info: Reference section=0 on input line 37.
+Package biblatex Info: Reference segment=0 on input line 37.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 41.
  (c:/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 40.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 41.
  (c:/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 41.
  (c:/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 40.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 41.
  (c:/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 40.
+(Font)              <12> on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 40.
+(Font)              <8> on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 40.
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+(Font)              <6> on input line 41.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 40.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 41.
  (c:/texlive/2018/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 47.
+(Font)              <10> on input line 48.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 47.
+(Font)              <7> on input line 48.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 47.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 90.
+(Font)              <5> on input line 48.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 60.
  (c:/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 174.
- [2]
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 184.
+ [3]
 
-LaTeX Warning: Empty bibliography on input line 217.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 217.
+
+<./images/penalty_iterations.png, id=183, 393.47pt x 279.0425pt>
+File: ./images/penalty_iterations.png Graphic file (type png)
+<use ./images/penalty_iterations.png>
+Package pdftex.def Info: ./images/penalty_iterations.png  used on input line 219.
+(pdftex.def)             Requested size: 199.46198pt x 141.45395pt.
+<./images/discounted_iterations.png, id=185, 393.47pt x 279.0425pt>
+File: ./images/discounted_iterations.png Graphic file (type png)
+<use ./images/discounted_iterations.png>
+Package pdftex.def Info: ./images/discounted_iterations.png  used on input line 220.
+(pdftex.def)             Requested size: 199.46198pt x 141.45395pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 226.
+
+<./images/penalty_time.png, id=186, 390.45876pt x 279.0425pt>
+File: ./images/penalty_time.png Graphic file (type png)
+<use ./images/penalty_time.png>
+Package pdftex.def Info: ./images/penalty_time.png  used on input line 228.
+(pdftex.def)             Requested size: 199.46198pt x 142.54396pt.
+<./images/discounted_time.png, id=187, 390.45876pt x 279.0425pt>
+File: ./images/discounted_time.png Graphic file (type png)
+<use ./images/discounted_time.png>
+Package pdftex.def Info: ./images/discounted_time.png  used on input line 229.
+(pdftex.def)             Requested size: 199.46198pt x 142.54396pt.
+[4 <./images/penalty_iterations.png> <./images/discounted_iterations.png> <./images/penalty_time.png> <./images/discounted_time.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 246.
+
+<./images/smallLivingPenaltyPolicy.png, id=208, 497.86pt x 497.86pt>
+File: ./images/smallLivingPenaltyPolicy.png Graphic file (type png)
+<use ./images/smallLivingPenaltyPolicy.png>
+Package pdftex.def Info: ./images/smallLivingPenaltyPolicy.png  used on input line 248.
+(pdftex.def)             Requested size: 199.46198pt x 199.46712pt.
+<./images/smallDiscountedPolicy.png, id=209, 497.86pt x 497.86pt>
+File: ./images/smallDiscountedPolicy.png Graphic file (type png)
+<use ./images/smallDiscountedPolicy.png>
+Package pdftex.def Info: ./images/smallDiscountedPolicy.png  used on input line 249.
+(pdftex.def)             Requested size: 199.46198pt x 199.46712pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 254.
+
+<./images/largeLivingPenaltyPolicy.png, id=210, 497.86pt x 497.86pt>
+File: ./images/largeLivingPenaltyPolicy.png Graphic file (type png)
+<use ./images/largeLivingPenaltyPolicy.png>
+Package pdftex.def Info: ./images/largeLivingPenaltyPolicy.png  used on input line 256.
+(pdftex.def)             Requested size: 199.46198pt x 199.46712pt.
+<./images/largeDiscountedPolicy.png, id=211, 497.86pt x 497.86pt>
+File: ./images/largeDiscountedPolicy.png Graphic file (type png)
+<use ./images/largeDiscountedPolicy.png>
+Package pdftex.def Info: ./images/largeDiscountedPolicy.png  used on input line 257.
+(pdftex.def)             Requested size: 199.46198pt x 199.46712pt.
+[5 <./images/smallLivingPenaltyPolicy.png> <./images/smallDiscountedPolicy.png> <./images/largeLivingPenaltyPolicy.png> <./images/largeDiscountedPolicy.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 285.
 
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 285.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 292.
+
+<./images/p1penalty.png, id=225, 497.86pt x 497.86pt>
+File: ./images/p1penalty.png Graphic file (type png)
+<use ./images/p1penalty.png>
+Package pdftex.def Info: ./images/p1penalty.png  used on input line 294.
+(pdftex.def)             Requested size: 199.46198pt x 199.46712pt.
+<./images/p1discounted.png, id=226, 497.86pt x 497.86pt>
+File: ./images/p1discounted.png Graphic file (type png)
+<use ./images/p1discounted.png>
+Package pdftex.def Info: ./images/p1discounted.png  used on input line 295.
+(pdftex.def)             Requested size: 199.46198pt x 199.46712pt.
+[6]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 340.
+
+<./images/qlearn_small_ol.png, id=236, 497.86pt x 497.86pt>
+File: ./images/qlearn_small_ol.png Graphic file (type png)
+<use ./images/qlearn_small_ol.png>
+Package pdftex.def Info: ./images/qlearn_small_ol.png  used on input line 342.
+(pdftex.def)             Requested size: 199.46198pt x 199.46712pt.
+<./images/qlearn_large_ol.png, id=237, 497.86pt x 497.86pt>
+File: ./images/qlearn_large_ol.png Graphic file (type png)
+<use ./images/qlearn_large_ol.png>
+Package pdftex.def Info: ./images/qlearn_large_ol.png  used on input line 343.
+(pdftex.def)             Requested size: 199.46198pt x 199.46712pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 349.
+
+<./images/small_ep_p.png, id=238, 426.59375pt x 376.40625pt>
+File: ./images/small_ep_p.png Graphic file (type png)
+<use ./images/small_ep_p.png>
+Package pdftex.def Info: ./images/small_ep_p.png  used on input line 351.
+(pdftex.def)             Requested size: 199.46198pt x 175.99774pt.
+<./images/large_ep_p.png, id=239, 428.60126pt x 376.40625pt>
+File: ./images/large_ep_p.png Graphic file (type png)
+<use ./images/large_ep_p.png>
+Package pdftex.def Info: ./images/large_ep_p.png  used on input line 352.
+(pdftex.def)             Requested size: 199.46198pt x 175.17067pt.
+[7 <./images/p1penalty.png> <./images/p1discounted.png>] [8 <./images/qlearn_small_ol.png> <./images/qlearn_large_ol.png> <./images/small_ep_p.png> <./images/large_ep_p.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 371.
+
+<./images/epsilon_time_small.png, id=265, 393.47pt x 266.9975pt>
+File: ./images/epsilon_time_small.png Graphic file (type png)
+<use ./images/epsilon_time_small.png>
+Package pdftex.def Info: ./images/epsilon_time_small.png  used on input line 373.
+(pdftex.def)             Requested size: 199.46198pt x 135.34802pt.
+<./images/epsilon_time_large.png, id=266, 393.47pt x 266.9975pt>
+File: ./images/epsilon_time_large.png Graphic file (type png)
+<use ./images/epsilon_time_large.png>
+Package pdftex.def Info: ./images/epsilon_time_large.png  used on input line 374.
+(pdftex.def)             Requested size: 199.46198pt x 135.34802pt.
+[9 <./images/epsilon_time_small.png> <./images/epsilon_time_large.png>] 
 AED: lastpage setting LastPage
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
+[10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 393.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 393.
  (c:/Users/me/Documents/CS4641/Assignment 4/writeup/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 393.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 393.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8943098E0B3034457BB1B5C12228435D;612.
+(rerunfilecheck)             Checksum: BF57FE27EE91F85501AFBFB67726AC0A;1596.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29550 strings out of 492616
- 546103 string characters out of 6132768
- 1191218 words of memory out of 5000000
- 32947 multiletter control sequences out of 15000+600000
- 66985 words of font info for 65 fonts, out of 8000000 for 9000
+ 29920 strings out of 492616
+ 554041 string characters out of 6132768
+ 1193489 words of memory out of 5000000
+ 33255 multiletter control sequences out of 15000+600000
+ 85888 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,87p,866b,4000s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "c:/Users/me/Documents/CS4641/Assignment 4/writeup/main.pdf" (3 pages, 286257 bytes).
+ 62i,10n,89p,866b,4000s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "c:/Users/me/Documents/CS4641/Assignment 4/writeup/main.pdf" (10 pages, 764667 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 357 words of extra memory for PDF output out of 10000 (max. 10000000)
 

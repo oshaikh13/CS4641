@@ -355,23 +355,77 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ts1-lmr7.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ts1-lmr5.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT c:/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr5.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmtt8.tfm
 INPUT c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr5.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmri7.tfm
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/penalty_iterations.png
+INPUT ./images/penalty_iterations.png
+INPUT ./images/penalty_iterations.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/discounted_iterations.png
+INPUT ./images/discounted_iterations.png
+INPUT ./images/discounted_iterations.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/penalty_time.png
+INPUT ./images/penalty_time.png
+INPUT ./images/penalty_time.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/discounted_time.png
+INPUT ./images/discounted_time.png
+INPUT ./images/discounted_time.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/smallLivingPenaltyPolicy.png
+INPUT ./images/smallLivingPenaltyPolicy.png
+INPUT ./images/smallLivingPenaltyPolicy.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/smallDiscountedPolicy.png
+INPUT ./images/smallDiscountedPolicy.png
+INPUT ./images/smallDiscountedPolicy.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/largeLivingPenaltyPolicy.png
+INPUT ./images/largeLivingPenaltyPolicy.png
+INPUT ./images/largeLivingPenaltyPolicy.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/largeDiscountedPolicy.png
+INPUT ./images/largeDiscountedPolicy.png
+INPUT ./images/largeDiscountedPolicy.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/p1penalty.png
+INPUT ./images/p1penalty.png
+INPUT ./images/p1penalty.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/p1discounted.png
+INPUT ./images/p1discounted.png
+INPUT ./images/p1discounted.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/qlearn_small_ol.png
+INPUT ./images/qlearn_small_ol.png
+INPUT ./images/qlearn_small_ol.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/qlearn_large_ol.png
+INPUT ./images/qlearn_large_ol.png
+INPUT ./images/qlearn_large_ol.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/small_ep_p.png
+INPUT ./images/small_ep_p.png
+INPUT ./images/small_ep_p.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/large_ep_p.png
+INPUT ./images/large_ep_p.png
+INPUT ./images/large_ep_p.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/epsilon_time_small.png
+INPUT ./images/epsilon_time_small.png
+INPUT ./images/epsilon_time_small.png
+INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/./images/epsilon_time_large.png
+INPUT ./images/epsilon_time_large.png
+INPUT ./images/epsilon_time_large.png
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/main.aux
 INPUT c:/texlive/2018/texmf-dist/tex/latex/biblatex-chicago/cms-american.lbx
 INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/main.out
 INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/main.out
 INPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/main.run.xml
 OUTPUT c:/Users/me/Documents/CS4641/Assignment 4/writeup/main.run.xml
-INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
+INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
@@ -388,9 +442,14 @@ INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr17.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr9.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri7.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy5.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy7.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt8.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
